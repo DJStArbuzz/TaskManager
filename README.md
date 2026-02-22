@@ -45,8 +45,6 @@
 Дождитесь загрузки зависимостей. Запустите класс com.example.taskmanager.Application.
 
 Вариант 2: Сборка через Maven и запуск JAR. 
-```bash mvn clean package
-```bash java -jar target/untitled-1.0-SNAPSHOT.jar
-
----
-По всем вопросам обращайтесь: shebetanick123@yandex.ru
+ ```bash
+  mvn clean package
+  bash java -jar target/untitled-1.0-SNAPSHOT.jar
