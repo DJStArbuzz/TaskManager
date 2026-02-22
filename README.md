@@ -46,7 +46,7 @@
 
 Вариант 2: Сборка через Maven и запуск JAR. 
 ```bash mvn clean package
-java -jar target/untitled-1.0-SNAPSHOT.jar
+java -jar target/untitled-1.0-SNAPSHOT.jar```
 
 ---
 По всем вопросам обращайтесь: shebetanick123@yandex.ru
