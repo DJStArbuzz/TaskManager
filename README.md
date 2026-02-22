@@ -11,16 +11,16 @@
 - PostgreSQL 16+
 - Swing (GUI)
 - JDBC + HikariCP (пул соединений)
-- Liquibase (миграции БД, бонус)
+- Liquibase (миграции БД)
 - Maven (сборка)
-- JUnit 5 + Mockito (юнит-тесты, бонус)
+- JUnit 5 + Mockito
 
 ---
 
 ## Требования к окружению
 
 - Установленная Java 17 или выше
-- Установленная PostgreSQL 16+ с созданной базой данных (см. ниже)
+- Установленная PostgreSQL 16+ с созданной базой данных
 - Maven 3.8+ (для сборки)
 - Git (для клонирования)
 
@@ -40,10 +40,13 @@
 
 Сборка и запуск
 Вариант 1: Запуск из IntelliJ IDEA
-Склонируйте репозиторий: git clone https://github.com/your-username/task-manager.git
+Склонируйте репозиторий: git clone https://github.com/DJStArbuzz/TaskManager.git
 Откройте проект в IntelliJ IDEA как проект Maven.
 Дождитесь загрузки зависимостей. Запустите класс com.example.taskmanager.Application.
 
 Вариант 2: Сборка через Maven и запуск JAR. 
-mvn clean package
+```bash mvn clean package
 java -jar target/untitled-1.0-SNAPSHOT.jar
+
+---
+По всем вопросам обращайтесь: shebetanick123@yandex.ru
